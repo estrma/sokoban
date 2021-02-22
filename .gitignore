@@ -1,4 +1,5 @@
 node_modules
 /.idea/
-/public/*
 .DS_Store
+/public/app.js
+/public/app.min.js
