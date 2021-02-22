@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "chrome": true
+  },
+  "rules": {
+    "no-restricted-globals": 0,
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "no-plusplus": 0,
+    "react/jsx-filename-extension": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  sokoban:
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    expose:
+      - "9000"
+    volumes:
+      - "./:/app"

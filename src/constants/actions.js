@@ -1,0 +1,7 @@
+export const MOVE = 'MOVE';
+export const LOAD_NEXT_LEVEL = 'LOAD_NEXT_LEVEL';
+export const RESTART_LEVEL = 'RESTART_LEVEL';
+export const START_GAME = 'START_GAME';
+export const SHOW_MENU = 'SHOW_MENU';
+export const SHOW_LEADERBOARD = 'SHOW_LEADERBOARD';
+export const ADD_SCORE_TO_LEADERBOARD = 'ADD_SCORE_TO_LEADERBOARD';
